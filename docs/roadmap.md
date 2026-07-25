@@ -9,19 +9,18 @@
 - Safe bounded local batches
 - Failure diagnostics and withheld imports
 
-## Next
+## Coming next
 
-- Durable website manifests and checkpoints
-- Pause, resume, and retry across network outages
-- Memory-aware scheduling
-- Multi-website queues with isolation
-- Server-side validation independent of the Figma plugin
-- Cloud browser workers
+- Longer-running website projects
+- Better pause and resume experiences
+- Support for working across multiple sites
+- More reliable handling of complex interface states
+- Easier review and continuation of imported design work
+- Wider access beyond the current local workflow
 
 ## Later
 
-- Authenticated application capture
-- Figma prototype linking between discovered states
-- Better support for canvas and WebGL experiences
-- Broader framework and component recognition
-- Team workspaces and review history
+- Authenticated and private application workflows
+- Connected journeys between discovered screens
+- Broader coverage for complex web experiences
+- Team collaboration and review history

@@ -1,48 +1,59 @@
 # Atlas
 
-Atlas is a browser-to-Figma reconstruction engine for turning structured live websites into editable design systems.
+## Turn the web into editable design work
 
-This is the public product showcase for Atlas. The implementation repository is private.
+Atlas helps designers and teams transform live web interfaces into editable Figma designs.
 
-## What Atlas does
+Instead of starting from a flat screenshot, Atlas gives you a structured starting point you can explore, refine, and continue building from.
 
-Atlas opens a public webpage in a real browser, captures its rendered structure and visual reference, reconstructs the interface as editable Figma layers, and validates the result against the original browser render.
+## Built for real product interfaces
 
-It is designed for structured interfaces such as:
+Atlas is focused on the kinds of websites teams work with every day:
 
-- healthcare and operations dashboards;
+- dashboards and analytics products;
+- healthcare and operations portals;
 - admin panels and internal tools;
-- SaaS products and portals;
-- content-heavy product pages;
-- multi-page web applications with tabs and UI states.
+- SaaS applications;
+- content-rich product experiences;
+- multi-page interfaces with meaningful UI states.
 
-Atlas can discover same-site pages and tab-like states, preserve editable text and controls, translate compatible icons and SVGs into vectors, and withhold incomplete or visually inaccurate captures.
+## What you get
 
-## Current release: v0.4.0
+Atlas is designed to preserve the important parts of an interface:
 
-The current milestone introduces a laptop-safe website workflow:
+- editable text;
+- recognizable layout and hierarchy;
+- reusable-looking containers and controls;
+- visual details such as imagery, icons, and styling;
+- alternate pages and interface states where they can be discovered.
 
-- one target processed at a time;
-- bounded local crawls;
-- safe stopping after the current capture;
-- editable reconstruction with geometry-safe Auto Layout;
-- browser-to-Figma visual validation;
-- failure retention for later diagnosis.
+The result is a Figma canvas you can inspect and work with—not merely a picture placed inside a frame.
 
-Local runs are intentionally limited to small chunks while durable cloud scheduling is being developed.
+## Why Atlas
 
-## What this repository contains
+Rebuilding a website in Figma by hand is slow. Importing a screenshot is fast, but it leaves you with very little to edit.
 
-- [Product overview](docs/product-overview.md)
-- [Architecture](docs/architecture.md)
-- [Roadmap](docs/roadmap.md)
-- [Public limitations](docs/limitations.md)
+Atlas sits between those two extremes: it accelerates the first mile while keeping the result useful for design exploration, documentation, redesign, and handoff.
 
-The repository contains no Atlas source code, conversion payloads, private application data, credentials, or customer website captures.
+## Current direction
+
+Atlas is being developed around a simple ambition:
+
+> Make high-quality web interfaces easier to bring into the design process.
+
+The current private milestone is `v0.4.0`. The system is being tested first on structured public web applications, with broader website coverage and longer-running workflows planned over time.
+
+## Public showcase
+
+This repository shares the product vision, capabilities, and direction of Atlas. The implementation remains private.
+
+It intentionally does not contain source code, private URLs, credentials, customer data, or internal implementation details.
+
+See the [product overview](docs/product-overview.md), [roadmap](docs/roadmap.md), and [limitations](docs/limitations.md) for more context.
 
 ## Status
 
-Atlas is an active private development project. The public repository documents the direction and capabilities without exposing the implementation.
+Atlas is an active private development project.
 
 ## License
 

@@ -6,14 +6,12 @@ Recreating a working web interface in Figma usually means taking a screenshot an
 
 ## The Atlas approach
 
-Atlas treats a website as a rendered system rather than a flat image:
+Atlas is designed to move from a live experience to useful design material:
 
-1. Capture the live browser state.
-2. Understand visible structure, text, controls, media, icons, and layout.
-3. Generate editable Figma layers.
-4. Render the Figma result.
-5. Compare it with the browser reference.
-6. Accept, diagnose, retry, or withhold the result.
+1. Start with the experience people see in a browser.
+2. Preserve the visual hierarchy and important interface details.
+3. Produce editable Figma work.
+4. Check that the result is useful and faithful.
 
 The goal is not to support every website immediately. The goal is to become exceptionally reliable for structured web applications, then expand coverage deliberately.
 
@@ -22,5 +20,4 @@ The goal is not to support every website immediately. The goal is to become exce
 - Fidelity before blind import.
 - Editable structure before screenshot flattening.
 - Safe failure before misleading output.
-- Small resumable workloads before uncontrolled crawls.
-- Figma as the delivery surface, not the long-running job manager.
+- Practical progress before perfect coverage.
