@@ -51,6 +51,8 @@ Import to Figma
 
 The goal is a faithful, editable starting point that feels like the original product—not a flat screenshot.
 
+**Atlas intelligently explores applications before reconstructing them, preserving structure instead of merely capturing pixels.**
+
 ## Why Atlas
 
 Rebuilding a website in Figma by hand is slow. Importing a screenshot is fast, but it leaves you with very little to edit.
