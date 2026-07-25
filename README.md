@@ -29,6 +29,28 @@ Atlas is designed to preserve the important parts of an interface:
 
 The result is a Figma canvas you can inspect and work with—not merely a picture placed inside a frame.
 
+## How Atlas Works
+
+Atlas turns a live web experience into editable design work through a simple pipeline:
+
+```text
+URL
+  ↓
+Discover navigation
+  ↓
+Explore pages
+  ↓
+Capture interface states
+  ↓
+Convert
+  ↓
+Validate
+  ↓
+Import to Figma
+```
+
+The goal is a faithful, editable starting point that feels like the original product—not a flat screenshot.
+
 ## Why Atlas
 
 Rebuilding a website in Figma by hand is slow. Importing a screenshot is fast, but it leaves you with very little to edit.
