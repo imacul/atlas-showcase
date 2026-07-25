@@ -15,6 +15,8 @@ Atlas is designed to move from a live experience to useful design material:
 
 The goal is not to support every website immediately. The goal is to become exceptionally reliable for structured web applications, then expand coverage deliberately.
 
+Atlas is powered by PMc.
+
 ## Design principles
 
 - Fidelity before blind import.

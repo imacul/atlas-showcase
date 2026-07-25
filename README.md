@@ -1,5 +1,7 @@
 # Atlas
 
+![Atlas — Understand the web. Reconstruct designs.](assets/brand/atlas-banner.png)
+
 ## Turn the web into editable design work
 
 Atlas helps designers and teams transform live web interfaces into editable Figma designs.
@@ -53,6 +55,14 @@ The goal is a faithful, editable starting point that feels like the original pro
 
 **Atlas intelligently explores applications before reconstructing them, preserving structure instead of merely capturing pixels.**
 
+## Brand
+
+Atlas is represented by a luminous blue “A” and a four-part product story: **Explore, Understand, Reconstruct, Deliver**. “Deliver” means importing the validated reconstruction into Figma as editable design work.
+
+| Logo | Launch profile |
+| --- | --- |
+| <img src="assets/brand/atlas-logo.png" alt="Atlas logo" width="260"> | [View the Atlas launch profile snapshot](assets/brand/atlas-social-profile.png) |
+
 ## Why Atlas
 
 Rebuilding a website in Figma by hand is slow. Importing a screenshot is fast, but it leaves you with very little to edit.
@@ -82,3 +92,7 @@ Atlas is an active private development project.
 ## License
 
 The showcase documentation is released under the MIT License. Atlas implementation code is not included and remains proprietary.
+
+---
+
+Powered by PMc.
